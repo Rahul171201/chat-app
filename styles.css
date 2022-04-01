@@ -1,0 +1,25 @@
+html, body {
+    margin:0px;
+}
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 100px;
+    border-radius: 100%;
+}
+.leftnavbar{
+    display: flex;
+    flex-direction: row;
+}
+.rightnavbar{
+    display: flex;
+    flex-direction: row;
+}
