@@ -1,6 +1,12 @@
 html, body {
     margin:0px;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .navbar{
     width: 100vw;
     height: 15vh;
@@ -22,4 +28,11 @@ html, body {
 .rightnavbar{
     display: flex;
     flex-direction: row;
+}
+.container{
+    width: 70vw;
+    height: 70vh;
+    border-radius: 19px;
+    margin: 25px;
+    background-color: rebeccapurple;
 }
